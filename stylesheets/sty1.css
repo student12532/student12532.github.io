@@ -1,6 +1,9 @@
 html {
             scroll-behavior: smooth;
 }
+a {
+            font-size: 30em;
+}
 a:link { 
             text-decoration: none; 
 }
