@@ -1,32 +1,15 @@
-body {
-    background-color: rgb(49, 92, 123);
-}
-.centertext {
-    text-align: center;
-    margin-right: 25%;
-    margin-left: 25%;
-    color: rgb(70, 190, 150);
-    font-family: monospace;
-    font-size: 1.3em;
-}
-.centerimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200;
-}
-.headings {
-    color: rgb(93, 209, 202);
-    text-align: center;
-    margin-right: 25%;
-    margin-left: 25%;
-    font-family: monospace;
-}
-h3 {
-    font-size: 1.5em;
-}
-h1 {
-    font-size: 3.5em;
-}
-
-
+            html {
+                scroll-behavior: smooth;
+            }
+            a:link { 
+                text-decoration: none; 
+            }
+            a:visited { 
+                text-decoration: none; 
+            }
+            a:hover { 
+                text-decoration: underline;
+            }
+            a:active { 
+                text-decoration: underline;
+            }
