@@ -25,6 +25,7 @@ html {
 }
 a {
             font-size: 30em;
+            font-family: redhatmono;
 }
 a:link { 
             text-decoration: none; 
