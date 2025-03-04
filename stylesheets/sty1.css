@@ -1,20 +1,17 @@
 
-@font-face
-{
+@font-face {
     font-family: 'doto';
     font-weight: normal;
     font-style: normal;
     src: url('fonts/doto.woff2');
 }
-@font-face
-{
+@font-face {
     font-family: 'redhatmono';
     font-weight: normal;
     font-style: normal;
     src: url('fonts/redhatmono.woff2');
 }
-@font-face
-{
+@font-face {
     font-family: 'courier';
     font-weight: normal;
     font-style: normal;
