@@ -49,11 +49,11 @@ a {
 }
 a:link { 
             text-decoration: none;
-            font-family: "doto";
+            font-family: 'doto';
 }
 a:visited { 
             text-decoration: none; 
-            font-family: "doto";
+            font-family: 'doto';
 }
 a:hover { 
             text-decoration: underline;
