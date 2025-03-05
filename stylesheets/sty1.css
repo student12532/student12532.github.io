@@ -45,7 +45,7 @@ html {
             scroll-behavior: smooth;
 }
 a {
-            font-family: redhatmono;
+            font-family: "redhatmono";
 }
 a:link { 
             text-decoration: none; 
