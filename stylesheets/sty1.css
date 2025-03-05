@@ -17,6 +17,30 @@
     font-style: normal;
     src: url('fonts/courier.woff2');
 }
+@font-face {
+    font-family: 'courier';
+    font-weight: normal;
+    font-style: italic;
+    src: url('fonts/courieritalic.woff2');
+}
+@font-face {
+    font-family: 'courier';
+    font-weight: bold;
+    font-style: normal;
+    src: url('fonts/courierbold.woff2');
+}
+@font-face {
+    font-family: 'courier';
+    font-weight: bold;
+    font-style: italic;
+    src: url('fonts/courierbolditalic.woff2');
+}
+@font-face {
+    font-family: 'redhatmono';
+    font-weight: normal;
+    font-style: italic;
+    src: url('fonts/redhatmono_italic.woff2');
+}
 html {
             scroll-behavior: smooth;
 }
