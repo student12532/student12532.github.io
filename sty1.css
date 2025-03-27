@@ -66,3 +66,6 @@ h1 {
     font-family: "doto", "monospace";
     font-weight: 800;
 }
+body { 
+    background-color: 32, 76, 80;
+}
