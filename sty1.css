@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: 'doto';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/doto.woff2');
+}
+@font-face {
+    font-family: 'redhatmono';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/redhatmono.woff2');
+}
+@font-face {
+    font-family: 'courier';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/courier.woff2');
+}
+@font-face {
+    font-family: 'courier';
+    font-weight: normal;
+    font-style: italic;
+    src: url('fonts/courieritalic.woff2');
+}
+@font-face {
+    font-family: 'courier';
+    font-weight: bold;
+    font-style: normal;
+    src: url('fonts/courierbold.woff2');
+}
+@font-face {
+    font-family: 'courier';
+    font-weight: bold;
+    font-style: italic;
+    src: url('fonts/courierbolditalic.woff2');
+}
+@font-face {
+    font-family: 'redhatmono';
+    font-weight: normal;
+    font-style: italic;
+    src: url('fonts/redhatmono_italic.woff2');
+}
+body { 
+    background-color: #008080;
+    color: #fffffff;
+
+}
+html {
+            scroll-behavior: smooth;
+}
+a {
+            font-family: "doto";
+}
+a:link { 
+            text-decoration: none;
+            font-family: 'doto';
+}
+a:visited { 
+            text-decoration: none; 
+            font-family: 'doto';
+}
+a:hover { 
+            text-decoration: underline;
+    
+}
+a:active { 
+            text-decoration: underline;
+}
+
+
+p { 
+    font-family: "courier", monospace;
+    color: #010081;
+}
+h1 {
+    font-family: "doto", "monospace";
+    font-weight: 800;
+    text-align: center;
+}
+.box1 {
+    background-color: white;
+    margin-left: 33%;
+    margin-right: 33%;
+    align-self: center;
+    max-height: 7em;
+    border-width: 0.2em;
+    border-style: dashed;
+    margin-bottom: 1em;
+}
+.box2 {  
+    float: left;
+    margin-right: 60%;
+    background-color: #c3c3c3;
+    padding-left: 0.5em;
+    border-style: double;
+    border-color: #ff0081;
+    cursor: default;
+    font-size: 1.1em;
+    transition:all 1s;
+}
+.box2:hover {
+    font-weight: bold;
+    transform: scale(2.0);
+    position: relative 4em;
+}
