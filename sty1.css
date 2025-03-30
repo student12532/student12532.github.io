@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "doto";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/doto.woff2");
+}
+@font-face {
+  font-family: "redhatmono";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/redhatmono.woff2");
+}
+@font-face {
+  font-family: "courier";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/courier.woff2");
+}
+@font-face {
+  font-family: "courier";
+  font-weight: normal;
+  font-style: italic;
+  src: url("fonts/courieritalic.woff2");
+}
+@font-face {
+  font-family: "courier";
+  font-weight: bold;
+  font-style: normal;
+  src: url("fonts/courierbold.woff2");
+}
+@font-face {
+  font-family: "courier";
+  font-weight: bold;
+  font-style: italic;
+  src: url("fonts/courierbolditalic.woff2");
+}
+@font-face {
+  font-family: "redhatmono";
+  font-weight: normal;
+  font-style: italic;
+  src: url("fonts/redhatmono_italic.woff2");
+}
+body {
+  background-color: #008080;
+  color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  font-family: "courier", monospace;
+}
+a:link {
+  text-decoration: none;
+  font-family: "courier", monospace;
+}
+a:visited {
+  text-decoration: none;
+  font-family: "courier", monospace;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+
+p {
+  font-family: "courier", monospace;
+  color: #010081;
+  font-size: 1.1em;
+}
+h1 {
+  font-family: "doto", monospace;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.5em;
+}
+.box1 {
+  background-color: white;
+  margin-top: 2.5em;
+  margin-left: 33%;
+  margin-right: 33%;
+  align-self: center;
+  border-width: 0.2em;
+  border-style: dashed;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+.box2 {
+  background-color: #c3c3c3;
+  margin-top: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-style: double;
+  border-color: #ff0081;
+  cursor: default;
+  transition: all 1s;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.box2:hover {
+  transform: scale(1.2);
+}
+
+.topbar {
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.topbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.box4 {
+  background-color: #c3c3c3;
+  margin-top: 1.8em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  border-style: double;
+  border-color: #ff0081;
+  cursor: default;
+  transition: all 1s;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.topbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topbar a.active {
+  background-color: darkblue;
+  color: white;
+}
+table, th, td {
+  border-style: solid;
+  border-color: black;
+  border-width: 0.2em;
+  border-collapse: collapse;
+  width: 20#%;
+}
+.box3 {
+  background-color: #c3c3c3;
+  margin-top: 1.8em;
+  cursor: default;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.box4:hover {
+  transform: scale(1.2);
+}
+.boxleft {
+  background-color: #c3c3c3;
+  margin-top: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-style: double;
+  border-color: #ff0081;
+  cursor: default;
+  position: absolute;
+  margin-right: 45%;
+  margin-left: 1%;
+}
