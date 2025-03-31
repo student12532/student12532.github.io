@@ -146,9 +146,7 @@ h1 {
   background-color: darkblue;
   color: white;
 }
-table,
-th,
-td {
+table, th, td {
   border-style: solid;
   border-color: black;
   border-width: 0.2em;
@@ -212,16 +210,16 @@ li {
   padding: 0.1em;
 }
 .img1 {
-  width: 20em;
+  width: 19em;
   margin: 0.1em;
   object-fit: cover;
-  height: 20em;
+  height: 19em;
 }
 .img2 {
-  width: 16em;
+  width: 15em;
   margin: 0.1em;
   object-fit: cover;
-  height: 15em;
+  height: 14em;
 }
 .px {
   image-rendering: pixelated;
